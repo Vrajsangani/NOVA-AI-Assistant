@@ -54,15 +54,13 @@ A suggested repository layout:
 
 ```text
 NOVA-AI-Assistant/
-├── main.py                 # Application entry point (add your launcher/UI)
+├── main.py                 # Application entry point
 ├── assistant.py            # Core Assistant class from the supplied source
 ├── requirements.txt        # Python dependencies
 ├── README.md
 ├── .gitignore
 └── assets/                 # Optional screenshots, icons, or demo media
 ```
-
-The supplied source is the core assistant logic. Rename it to `assistant.py` if that is how your launcher imports it. Keep your actual UI/launcher files in the repository if your application uses them.
 
 ## Requirements
 
@@ -178,7 +176,6 @@ NOVA can listen through the microphone and interact with local applications and 
 
 ## Future improvements
 
-- Add a clear application launcher and document the GUI (if applicable).
 - Separate command handlers into modules and remove duplicate/unused imports.
 - Add unit tests and structured logging.
 - Add confirmation prompts for shutdown, restart, logoff, process termination, and other destructive actions.
