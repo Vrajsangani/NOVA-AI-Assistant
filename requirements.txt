@@ -1,0 +1,14 @@
+pipwin
+PyQt5
+SpeechRecognition
+pyttsx3
+wikipedia
+requests
+pyaudio
+psutil
+pyautogui
+pywin32
+PyPDF2
+noisereduce
+numpy
+bs4
